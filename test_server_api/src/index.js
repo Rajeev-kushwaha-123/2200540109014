@@ -1,19 +1,17 @@
+import Prime from './components/prime';  // if prime.js is inside a components folder
+import Fibonacci from './components/fibonacci';
+import Even from './components/even';
+import Random from './components/random';
 
-
-import React from 'react';
-import FetchPrimes from './prime';
-import FetchFibonacci from './fibonacci';
-import FetchEven from './even';
-import FetchRandom from './random';
 
 function App() {
   return (
     <div className="App">
       <h1>Number APIs</h1>
-      <FetchPrimes />
-      <FetchFibonacci />
-      <FetchEven />
-      <FetchRandom />
+      <Prime />
+      < Fibonacci/>
+      <Even />
+      <Random />
     </div>
   );
 }
